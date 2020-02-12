@@ -7,4 +7,11 @@ Boto3
 AWSCLI
 
 Kindly genrate AWS Access/Secret Key from IAM then import into host system. This can be done via aws configure.
-Once the awscli configuration has been done, run this script by python3 proviosning.py then enter details as asked.
+Once the awscli configuration has been done, run this script by python3 provision.py then enter details as asked.
+
+steps:
+
+yum install python-pip3
+pip3 install awscli
+aws configure
+python3 provision.py
